@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+ 
+.maincontainer {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+h1 {
+    text-align: center;
+    color: #555;
+}
+ 
+.button-contain {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.button-contain button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+ 
+.button-contain button.on {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+ 
+.button-contain button.off {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+ 
+.statecontain {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+}
+ 
+.keypressedshower,
+.keydownupstatus {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+ 
+ 
+ 
+
+ 
+
